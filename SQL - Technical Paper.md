@@ -45,19 +45,19 @@ CREATE TABLE departments (
 ```
 ### Common Constraints
 
-PRIMARY KEY: Unique identifier
+- PRIMARY KEY: Unique identifier
 
-FOREIGN KEY: Maintains relationships
+- FOREIGN KEY: Maintains relationships
 
-NOT NULL: Required field
+- NOT NULL: Required field
 
-UNIQUE: No duplicates
+- UNIQUE: No duplicates
 
-CHECK: Validates data conditions
+- CHECK: Validates data conditions
 
-DEFAULT: Assigns default value
+- DEFAULT: Assigns default value
 
- Data Manipulation (DML)
+ ### Data Manipulation (DML)
 
 SQL provides commands to manage table data:
 
