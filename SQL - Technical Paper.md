@@ -1,4 +1,4 @@
-# SQL Concepts – Technical Paper
+# SQL – Technical Paper
 
 Structured Query Language (SQL) is the standard language for managing and manipulating **relational databases**. This paper explores the core concepts of SQL and databases, including **data definition, manipulation, transactions, constraints, joins, indexing, normalization, isolation levels, triggers, and theoretical principles such as ACID and CAP theorem**. The purpose of this paper is to provide a comprehensive understanding of SQL and its practical applications in modern database systems.
 
