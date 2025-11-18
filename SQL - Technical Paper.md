@@ -11,7 +11,7 @@ Relational databases organize data into **tables** composed of rows and columns.
 ### Users and Databases
 Database management begins with creating users and databases:
 
-```sql
+**\`\`\`sql** 
 -- Create a user
 CREATE USER john WITH PASSWORD 'john123';
 
@@ -20,6 +20,8 @@ CREATE DATABASE company OWNER john;
 
 -- Grant privileges
 GRANT ALL PRIVILEGES ON DATABASE company TO john;
+
+**\`\`\`**
 
 ## 2. Core Concepts
 
@@ -46,7 +48,7 @@ Joins combine data from multiple tables based on relationships:
 - **Right Join:** Returns all records from the right table and matched records from the left table; unmatched left-side records are NULL.  
 - **Full Outer Join:** Returns all records from both tables; unmatched records from either side are NULL.
 
-```sql
+**\`\`\`sql** 
 -- Inner Join
 SELECT e.name, d.name AS department
 FROM employees e
@@ -67,6 +69,7 @@ SELECT e.name, d.name AS department
 FROM employees e
 FULL OUTER JOIN departments d ON e.department_id = d.id;
 
+**\`\`\`sql** 
 
 
 
