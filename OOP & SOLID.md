@@ -169,10 +169,3 @@ c.start()  # Toyota started
 ## 5. Conclusion
 Understanding **OOP concepts and SOLID principles** is crucial for designing robust and maintainable software systems. OOP provides a **structured and modular way** to represent real-world entities, while SOLID principles guide developers to **write clean, reusable, and flexible code**. Mastery of these concepts ensures **high-quality software development** and reduces the risk of future code refactoring.
 
----
-
-## References
-1. Robert C. Martin, *Agile Software Development, Principles, Patterns, and Practices*.  
-2. Bjarne Stroustrup, *The C++ Programming Language*.  
-3. James Gosling, *The Java Language Specification*.  
-4. Oracle Java Documentation: https://docs.oracle.com/javase/tutorial/java/concepts/
