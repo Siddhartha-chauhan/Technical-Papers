@@ -87,6 +87,7 @@ c.charge()  # Charging...
 - **Compile-time (method overloading):** Same method name, different parameters.  
 - **Runtime (method overriding):** Subclass provides specific implementation of a superclass method.
 
+```python
 class Car:
     def move(self):
         print("Car is moving")
@@ -95,7 +96,7 @@ class ElectricCar(Car):
     def move(self):
         print("Electric car is moving silently")
 
-```python
+
 
 c = Car()
 e = ElectricCar()
