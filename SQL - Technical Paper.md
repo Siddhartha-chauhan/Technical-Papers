@@ -11,7 +11,7 @@ Relational databases organize data into **tables** composed of rows and columns.
 ### Users and Databases
 Database management begins with creating users and databases:
 
-**\`\`\`sql** 
+```sql
 -- Create a user
 CREATE USER john WITH PASSWORD 'john123';
 
@@ -21,7 +21,63 @@ CREATE DATABASE company OWNER john;
 -- Grant privileges
 GRANT ALL PRIVILEGES ON DATABASE company TO john;
 
-**\`\`\`**
+```
+
+### Tables and Constraints
+
+Tables store structured data. Constraints ensure data integrity:
+
+```sql
+-- Create table with constraints
+CREATE TABLE employees (
+    id INT PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    age INT CHECK(age >= 18),
+    department VARCHAR(50),
+    salary DECIMAL(10,2) DEFAULT 0
+);
+
+CREATE TABLE departments (
+    id INT PRIMARY KEY,
+    name VARCHAR(50) UNIQUE
+);
+
+```
+### Common Constraints
+
+PRIMARY KEY: Unique identifier
+
+FOREIGN KEY: Maintains relationships
+
+NOT NULL: Required field
+
+UNIQUE: No duplicates
+
+CHECK: Validates data conditions
+
+DEFAULT: Assigns default value
+
+ Data Manipulation (DML)
+
+SQL provides commands to manage table data:
+
+```sql
+
+-- Insert records
+INSERT INTO employees (id, name, age, department, salary)
+VALUES (1, 'Alice', 25, 'HR', 30000);
+
+-- Update records
+UPDATE employees SET salary = 35000 WHERE name='Alice';
+
+-- Delete records
+DELETE FROM employees WHERE id=1;
+
+-- Query records
+SELECT * FROM employees;
+SELECT name, salary FROM employees WHERE department='HR' ORDER BY salary DESC;
+
+```
 
 ## 2. Core Concepts
 
@@ -48,7 +104,8 @@ Joins combine data from multiple tables based on relationships:
 - **Right Join:** Returns all records from the right table and matched records from the left table; unmatched left-side records are NULL.  
 - **Full Outer Join:** Returns all records from both tables; unmatched records from either side are NULL.
 
-**\`\`\`sql** 
+```sql
+
 -- Inner Join
 SELECT e.name, d.name AS department
 FROM employees e
@@ -69,7 +126,7 @@ SELECT e.name, d.name AS department
 FROM employees e
 FULL OUTER JOIN departments d ON e.department_id = d.id;
 
-**\`\`\`sql** 
+```
 
 
 
