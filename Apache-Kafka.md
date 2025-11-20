@@ -49,4 +49,4 @@ experience and detect trends.
 
 ## References
 
--   https://kafka.apache.org/\
+-  https://youtu.be/QkdkLdMBuL0?si=RiFL-ckOGUOqm0Lu
