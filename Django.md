@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Django is a high-level Python web framework that enables rapid development of secure and maintainable websites. Released in 2005, it follows the model-template-view (MTV) architectural pattern.
+Django is a high-level Python web framework that enables rapid development of secure and maintainable websites.It follows the model-template-view (MTV) architectural pattern.
 ## Core Architecture
 
 ### MTV Pattern
