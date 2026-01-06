@@ -1,4 +1,4 @@
-# Why Linux Is Preferred
+# Why Linux Is Preferred ?
 
 ### Free and  Open source
 
@@ -27,3 +27,5 @@ Linux provides native Unix-like tools (bash, grep, ssh, etc.) that are standard 
 ### Server Dominance
   
 Over 90% of web servers and top supercomputers run Linux due to its stability, security, cost, and ability to run headless
+
+
