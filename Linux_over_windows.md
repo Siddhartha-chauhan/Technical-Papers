@@ -28,4 +28,19 @@ Linux provides native Unix-like tools (bash, grep, ssh, etc.) that are standard 
   
 Over 90% of web servers and top supercomputers run Linux due to its stability, security, cost, and ability to run headless
 
+## Distros
+Distros is short for distributions (or Linux distributions)
 
+A Linux distro is a complete operating system built around the Linux kernel (the core part that manages hardware and resources) combined with a collection of software, tools, libraries, and a package manager.
+
+
+## Why Are There So Many Distros?
+Anyone can take the Linux kernel, add software, and release their own version because Linux is open-source and free.
+
+## Popular Linux Distros
+- Ubuntu
+- Linux Mint
+- Pop!_OS
+- Zorin OS
+  
+Distros are different "flavors" of Linux, each with its own personality, and you can pick the one that matches your needs
