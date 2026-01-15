@@ -1,5 +1,7 @@
 # Celery 
 
+
+
 ## What is Celery?
 
 Celery is an **asynchronous task queue** based on distributed message passing. It's used to run tasks **in the background** instead of blocking the main application.
