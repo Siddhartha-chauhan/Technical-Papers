@@ -44,6 +44,7 @@ Examples: `<br>`, `<img>`, `<hr>`, `<input>`, `<meta>`
   Mutable     Immutable
   Uses \[\]   Uses ()
   Slower      Faster
+  
 
 ## 6. Purpose of indentation in Python?
 
