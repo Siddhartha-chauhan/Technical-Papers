@@ -1,5 +1,4 @@
 
-
 ## 1. What is PIP in Python?
 
 `pip` is the Package Installer for Python. It installs, updates, and
